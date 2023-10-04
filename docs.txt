@@ -1,9 +1,11 @@
 https://www.youtube.com/watch?v=UU1WVnMk4E8&t=393s
 
-min.9
+min.18
 
 python -m venv cuda
 cuda\Scripts\activate
 cuda\Scripts\deactivate.bat
 
 pip install torch --index-url https://download.pytorch.org/whl/cu118
+
+python -m ipykernel install --user --name=cuda --display-name "cuda-llm"
