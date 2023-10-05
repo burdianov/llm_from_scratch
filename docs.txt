@@ -1,6 +1,6 @@
 https://www.youtube.com/watch?v=UU1WVnMk4E8&t=393s
 
-min.18
+min.21
 
 python -m venv cuda
 cuda\Scripts\activate
